@@ -27,7 +27,8 @@ Works as a proof of concept. Does not have much practical use.
 ![lst](https://user-images.githubusercontent.com/71930390/120257932-c929f400-c2ae-11eb-8134-b2ba3d8b1d45.jpg)
 
 
-**How To Use**
+**How To Use**  
+
 1. Place constant bitrate mp3 files in the 'songs' folder which is in the same directory as the main.cpp file (up to 9 mp3s are supported).  
    Song filename must follow this convention : (artistname)-(songname)-(duration).mp3 without any whitespace.  
    Example - OzzyOsbourne-Dreamer-4.44.mp3  
@@ -41,14 +42,16 @@ Works as a proof of concept. Does not have much practical use.
 
 
 **Working Environment**  
+  
+C++ Compiler – MinGW gcc x64 (could work on others, not tested)  
 C++ standard 11 or newer (could work on older versions, not tested)  
 Operating System – Windows XP(SP1 64 bit) or newer.  
-C++ Compiler – MinGW gcc x64 (could work on others, not tested)  
 Note - terminal should accept ANSI Escape Sequences for the UI to work. (Example - Windows Powershell)
 
 
 **References**  
+
 CodeSpeedy - https://www.codespeedy.com/play-and-pause-an-mp3-file-in-cpp/, https://www.codespeedy.com/play-a-part-of-an-mp3-file-in-cpp/  
 CodeProject - https://www.codeproject.com/Articles/14709/Playing-MP3s-using-MCI  
-Stackoverflow - https://stackoverflow.com/questions/22253074/how-to-play-or-open-mp3-or-wav-sound-file-in-c-program
+Stackoverflow - https://stackoverflow.com/questions/22253074/how-to-play-or-open-mp3-or-wav-sound-file-in-c-program  
 Microsoft - https://docs.microsoft.com/en-us/previous-versions/dd757161(v=vs.85), https://docs.microsoft.com/en-us/windows/win32/multimedia/mci-functions?redirectedfrom=MSDN
