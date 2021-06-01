@@ -3,15 +3,6 @@ Command Line Music Player (C++) for Windows.
 
 **Description**
 
-![image](https://user-images.githubusercontent.com/71930390/120257394-d1356400-c2ad-11eb-8a9d-898969487f3e.png)
-
-
-![df](https://user-images.githubusercontent.com/71930390/120257743-62a4d600-c2ae-11eb-9c20-2653a5dcf6f4.png)
-
-
-![lst](https://user-images.githubusercontent.com/71930390/120257932-c929f400-c2ae-11eb-8134-b2ba3d8b1d45.jpg)
-
-
 This project can be used to play, pause and replay mp3 files of constant bitrate from terminal.
 
 It uses mciSendStringA() function of Windows Multimedia API (winmm.dll) to play mp3 files.
@@ -21,6 +12,15 @@ It is restricted to 9 songs in the 'Song List'. If more mp3s are present in the 
 Skips mp3s which could not be played.
 
 UI is made manually instead of using libraries like ncurces etc. since it was a college project 🙂.
+
+![image](https://user-images.githubusercontent.com/71930390/120257394-d1356400-c2ad-11eb-8a9d-898969487f3e.png)
+
+
+![df](https://user-images.githubusercontent.com/71930390/120257743-62a4d600-c2ae-11eb-9c20-2653a5dcf6f4.png)
+
+
+![lst](https://user-images.githubusercontent.com/71930390/120257932-c929f400-c2ae-11eb-8134-b2ba3d8b1d45.jpg)
+
 
 **How To Use**
 1. Place constant bitrate mp3 files in the 'songs' folder which is in the same directory as the main.cpp file (up to 9 mp3s are supported).
