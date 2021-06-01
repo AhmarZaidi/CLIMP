@@ -37,7 +37,7 @@ Works as a proof of concept. Does not have much practical use.
    Example - OzzyOsbourne-Dreamer-4.44.mp3  
    Note - Space should not be used in filenames.
    
-2. winmm.dll (dynamic library) must be linked to main.cpp. This could be done in different ways in different IDEs or text editors.  
+2. winmm.dll (static library) must be linked to main.cpp. This could be done in different ways in different IDEs or text editors.  
    For Visual Studio Code Use - ![image](https://user-images.githubusercontent.com/71930390/120261277-35a7f180-c2b5-11eb-91c4-118d5c433c62.png)  
    Note the addition of '-lwinmm' in the above line. 
 
@@ -57,4 +57,5 @@ Note - terminal should accept ANSI Escape Sequences for the UI to work. (Example
 CodeSpeedy - https://www.codespeedy.com/play-and-pause-an-mp3-file-in-cpp/, https://www.codespeedy.com/play-a-part-of-an-mp3-file-in-cpp/  
 CodeProject - https://www.codeproject.com/Articles/14709/Playing-MP3s-using-MCI  
 Stackoverflow - https://stackoverflow.com/questions/22253074/how-to-play-or-open-mp3-or-wav-sound-file-in-c-program  
-Microsoft - https://docs.microsoft.com/en-us/previous-versions/dd757161(v=vs.85), https://docs.microsoft.com/en-us/windows/win32/multimedia/mci-functions?redirectedfrom=MSDN
+Microsoft - https://docs.microsoft.com/en-us/previous-versions/dd757161(v=vs.85), https://docs.microsoft.com/en-us/windows/win32/multimedia/mci-functions?redirectedfrom=MSDN  
+Domi Yan Medium - https://domiyanyue.medium.com/c-development-tutorial-4-static-and-dynamic-libraries-7b537656163e
