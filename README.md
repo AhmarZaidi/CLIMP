@@ -3,7 +3,7 @@ Command Line Music Player (C++) for Windows.
   
     
     
-**Description**  
+**Description:**  
 This project can be used to play, pause and replay mp3 files of constant bitrate from terminal.
 
 Uses mciSendStringA() function of Windows Multimedia API (winmm.dll) to play mp3 files.
@@ -20,7 +20,7 @@ UI is made manually instead of using libraries like ncurces etc. and mp3s are pl
 Works as a proof of concept. Does not have much practical use.
   
   
-**Screenshots**  
+**Screenshots:**  
 ![image](https://user-images.githubusercontent.com/71930390/120257394-d1356400-c2ad-11eb-8a9d-898969487f3e.png)
 
 
@@ -31,7 +31,7 @@ Works as a proof of concept. Does not have much practical use.
 
   
   
-**How To Use**  
+**How To Use:**  
 1. Place constant bitrate mp3 files in the 'songs' folder which is in the same directory as the main.cpp file (up to 9 mp3s are supported).  
    Song filename must follow this convention : (artistname)-(songname)-(duration).mp3 without any whitespace.  
    Example - OzzyOsbourne-Dreamer-4.44.mp3  
@@ -45,7 +45,7 @@ Works as a proof of concept. Does not have much practical use.
 
   
   
-**Working Environment**  
+**Working Environment:**  
 C++ Compiler – MinGW gcc x64 (could work on others, not tested)  
 C++ standard 11 or newer (could work on older versions, not tested)  
 Operating System – Windows XP(SP1 64 bit) or newer.  
@@ -53,7 +53,7 @@ Note - terminal should accept ANSI Escape Sequences for the UI to work. (Example
 
   
   
-**References**  
+**References:**  
 CodeSpeedy - https://www.codespeedy.com/play-and-pause-an-mp3-file-in-cpp/, https://www.codespeedy.com/play-a-part-of-an-mp3-file-in-cpp/  
 CodeProject - https://www.codeproject.com/Articles/14709/Playing-MP3s-using-MCI  
 Stackoverflow - https://stackoverflow.com/questions/22253074/how-to-play-or-open-mp3-or-wav-sound-file-in-c-program  
