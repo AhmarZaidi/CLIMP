@@ -7,7 +7,7 @@ This project can be used to play, pause and replay mp3 files of constant bitrate
 
 Uses mciSendStringA() function of Windows Multimedia API (winmm.dll) to play mp3 files.
 
-It is restricted to 9 songs in the 'Song List'. If more mp3s are present in the songs folder it will only take first 9.
+It is restricted to 9 songs in 'Show List'. If more mp3s are present in the songs folder it will only take first 9.
 
 Displays error messege for mp3s which could not be played.
 
