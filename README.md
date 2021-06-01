@@ -5,7 +5,7 @@ Command Line Music Player (C++) for Windows.
 
 This project can be used to play, pause and replay mp3 files of constant bitrate from terminal.
 
-It uses mciSendStringA() function of Windows Multimedia API (winmm.dll) to play mp3 files.
+Uses mciSendStringA() function of Windows Multimedia API (winmm.dll) to play mp3 files.
 
 It is restricted to 9 songs in the 'Song List'. If more mp3s are present in the songs folder it will only take first 9.
 
