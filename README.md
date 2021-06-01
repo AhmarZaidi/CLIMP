@@ -9,9 +9,13 @@ Uses mciSendStringA() function of Windows Multimedia API (winmm.dll) to play mp3
 
 It is restricted to 9 songs in the 'Song List'. If more mp3s are present in the songs folder it will only take first 9.
 
-Skips mp3s which could not be played.
+Displays error messege for mp3s which could not be played.
 
-UI is made manually instead of using libraries like ncurces etc. since it was a college project 🙂.
+Doesn't change song by itself. Have to select 'next' or 'previous' button.
+
+Stores Song List in a text file in 'songs' folder.
+
+UI is made manually instead of using libraries like ncurces etc. and mp3s are played using Windows Multimedia API instead of SFML,FMOD etc. since it was a college project 🙂.
 
 ![image](https://user-images.githubusercontent.com/71930390/120257394-d1356400-c2ad-11eb-8a9d-898969487f3e.png)
 
