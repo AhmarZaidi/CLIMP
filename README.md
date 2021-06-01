@@ -1,6 +1,8 @@
 # CLIMP
 Command Line Music Player (C++) for Windows.
-
+  
+    
+    
 **Description**
 
 This project can be used to play, pause and replay mp3 files of constant bitrate from terminal.
@@ -26,7 +28,8 @@ Works as a proof of concept. Does not have much practical use.
 
 ![lst](https://user-images.githubusercontent.com/71930390/120257932-c929f400-c2ae-11eb-8134-b2ba3d8b1d45.jpg)
 
-
+  
+  
 **How To Use**  
 
 1. Place constant bitrate mp3 files in the 'songs' folder which is in the same directory as the main.cpp file (up to 9 mp3s are supported).  
@@ -40,7 +43,8 @@ Works as a proof of concept. Does not have much practical use.
 
 3. run main.cpp.
 
-
+  
+  
 **Working Environment**  
   
 C++ Compiler – MinGW gcc x64 (could work on others, not tested)  
@@ -48,7 +52,8 @@ C++ standard 11 or newer (could work on older versions, not tested)
 Operating System – Windows XP(SP1 64 bit) or newer.  
 Note - terminal should accept ANSI Escape Sequences for the UI to work. (Example - Windows Powershell)
 
-
+  
+  
 **References**  
 
 CodeSpeedy - https://www.codespeedy.com/play-and-pause-an-mp3-file-in-cpp/, https://www.codespeedy.com/play-a-part-of-an-mp3-file-in-cpp/  
