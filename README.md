@@ -28,7 +28,9 @@ UI is made manually instead of using libraries like ncurces etc. and mp3s are pl
 
 **How To Use**
 1. Place constant bitrate mp3 files in the 'songs' folder which is in the same directory as the main.cpp file (up to 9 mp3s are supported).
-   Song filename must follow this convention : (artistname)-(songname)-(duration).mp3              example - OzzyOsbourne-Dreamer-4.44.mp3
+   Song filename must follow this convention : (artistname)-(songname)-(duration).mp3 without any whitespace.
+   Example - OzzyOsbourne-Dreamer-4.44.mp3 
+   Note - Space should not be used in filenames.
    
 2. winmm.dll (dynamic library) must be linked to main.cpp. This could be done in different ways in different IDEs or text editors.
    For Visual Studio Code Use - ![image](https://user-images.githubusercontent.com/71930390/120261277-35a7f180-c2b5-11eb-91c4-118d5c433c62.png)
@@ -41,7 +43,7 @@ UI is made manually instead of using libraries like ncurces etc. and mp3s are pl
 C++ standard 11 or newer (could work on older versions, not tested)
 Operating System – Windows XP(SP1 64 bit) or newer.
 C++ Compiler – MinGW gcc x64 (could work on others, not tested)
-Note - terminal should accept ANSI Escape Sequences for the UI to work. (example - Windows Powershell)
+Note - terminal should accept ANSI Escape Sequences for the UI to work. (Example - Windows Powershell)
 
 
 **References**
