@@ -16,9 +16,11 @@ Doesn't change song by itself. Have to select 'next' or 'previous' button.
 
 Stores list of songs in a list.txt file in 'songs' folder.
 
-UI is made manually instead of using libraries like ncurces etc. and mp3s are played using Windows Multimedia API instead of SFML,FMOD etc. since it was a college project 🙂.
+UI is made manually instead of using libraries like ncurces etc. and mp3s are played using Windows Multimedia API instead of SFML,FMOD etc. since it was a college project 🙂.  
 Works as a proof of concept. Does not have much practical use.
-
+  
+  
+**Screenshots**  
 ![image](https://user-images.githubusercontent.com/71930390/120257394-d1356400-c2ad-11eb-8a9d-898969487f3e.png)
 
 
